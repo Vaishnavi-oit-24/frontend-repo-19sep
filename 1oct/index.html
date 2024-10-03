@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <form>
+<label for="add" style="vertical-align: top;" >Address:</label>
+<textarea id="add" rows="4" cols="30"></textarea>
+<br><br>
+<label for="div">DIV</label>
+<select id="div" multiple size="1" >
+<optgroup>
+    <option>DIVISION A</option>
+<option>DIVISION B</option>
+<option>DIVISION C</option>
+<option >DIVISION D</option>
+</optgroup>
+<optgroup>
+    <option>DIVISION A</option>
+<option>DIVISION B</option>
+<option>DIVISION C</option>
+<option selected>DIVISION D</option>
+</optgroup>
+</select>
+<br><br>
+<fieldset>
+    <legend>Qualification</legend>
+    <label for="12per">Percentage of 12th</label>
+    <input type="text" id="12per" pattern="^[0-9]+%$" placeholder="eg. 99%"/>
+    <br><br>
+    <label for="10per">Percentage of 10th</label>
+    <input type="text" id="10per" pattern="^[0-9]+%$" placeholder="eg. 99%"/>
+
+</fieldset>
+<br><br>
+   <label for="list"> Choose your browsers form a list:</label>
+   <input list="brows"/>
+   <datalist id="brows">
+   <option value="Edge"></option>
+    <option value="Firefox"></option>
+    <option value="Chrome"></option>
+    <option value="Opera"></option>
+    <option value="Safari"></option>
+  </datalist>
+   
+  <br><br>
+      <input type="submit" />
+ 
+    </form>
+    
+</body>
+</html>
