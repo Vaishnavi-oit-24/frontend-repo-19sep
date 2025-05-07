@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cake Shop</title>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <h1>Welcome to Aesthetic Cake</h1>
+    <hr />
+    <!-- Main -->
+    <section>
+      <strong>About our Bakehouse</strong>
+      <p>
+        Welcome to Our Bakehouse, where tradition meets taste. We pride
+        ourselves on using the finest ingredients to create fresh, handmade
+        baked goods every day. From artisan breads to indulgent pastries and
+        custom cakes, everything is baked with love and care. Whether you're
+        stopping by for a morning coffee or a sweet treat, you'll always find
+        something warm and welcoming at our bakehouse
+      </p>
+    </section>
+    <hr />
+    <section>
+      <img src="./images/cake1.jpg" alt="" width="400" height="400" />
+    </section>
+    <hr />
+    <section>
+      <h2>Our Services</h2>
+      <ol>
+        <li>
+          Custom Cake Design
+          <ul>
+            <li>Wedding Cakes</li>
+            <li>Birthday Cakes</li>
+            <li>Theme-Based Cakes</li>
+          </ul>
+        </li>
+        <li>
+          Dessert Table Setup
+          <ul>
+            <li>Mini Cupcakes</li>
+            <li>Macarons</li>
+            <li>Decorative Cookies</li>
+          </ul>
+        </li>
+        <li>
+          Seasonal & Holiday Specials
+          <ul>
+            <li>Valentine’s Day Cakes</li>
+            <li>Christmas Treats</li>
+            <li>Halloween Desserts</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <hr />
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/vvNMOcZLOak?si=oiCgx0ubwcEbgWj_"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+    <hr />
+    <section>
+      <h2>Price List</h2>
+      <table border="1">
+        <tr>
+          <th>Service</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Custom Wedding Cake</td>
+          <td>12,000₹</td>
+        </tr>
+        <tr>
+          <td>Birthday Cake (2-layer)</td>
+          <td>3,500₹</td>
+        </tr>
+        <tr>
+          <td>Mini Cupcake Set (12 pcs)</td>
+          <td>900₹</td>
+        </tr>
+        <tr>
+          <td>Fondant Cake Design</td>
+          <td>5,500₹</td>
+        </tr>
+        <tr>
+          <td>Seasonal Cake Specials</td>
+          <td>2,500₹</td>
+        </tr>
+      </table>
+    </section>
+    <hr />
+    <section id="cakeForm">
+      <h2>Order Your Cake</h2>
+      <form action="/submit-cake-order" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required /><br /><br />
+
+        <button type="submit">Submit Order</button>
+      </form>
+    </section>
+    <hr />
+    <!-- Footer -->
+    <footer>
+      <p>
+        Contact us at:
+        <a href="mailto:info@Bakehouse.com">info@Bakehouse.com</a>
+        <br />
+        Phone:
+        <a href="tell:+9187634511">+9187634511</a>
+      </p>
+    </footer>
+  </body>
+</html>
